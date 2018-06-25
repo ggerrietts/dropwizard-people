@@ -1,0 +1,13 @@
+people:
+  - name: Alice
+    email: alice@people.test
+  - name: Bob
+    email: bob@people.test
+  - name: Carol
+    email: carol@people.test
+  - name: Dave
+    email: dave@people.test
+  - name: Erin
+    email: erin@people.test
+  - name: Frank
+    email: frank@people.test
