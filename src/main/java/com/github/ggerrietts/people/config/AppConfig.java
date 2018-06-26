@@ -1,21 +1,21 @@
 package com.github.ggerrietts.people.config;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.github.ggerrietts.people.api.FreePerson;
+import com.github.ggerrietts.people.api.Person;
 import io.dropwizard.Configuration;
 
 import java.util.List;
 
 public class AppConfig extends Configuration {
-    private List<FreePerson> people;
+    private List<Person> people;
 
     @JsonProperty
-    public List<FreePerson> getPeople() {
+    public List<Person> getPeople() {
         return people;
     }
 
     @JsonProperty
-    public void setPeople(List<FreePerson> people) {
+    public void setPeople(List<Person> people) {
         this.people = people;
     }
 

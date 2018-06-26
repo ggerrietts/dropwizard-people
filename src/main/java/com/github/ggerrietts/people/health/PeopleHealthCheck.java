@@ -1,14 +1,14 @@
 package com.github.ggerrietts.people.health;
 
 import com.codahale.metrics.health.HealthCheck;
-import com.github.ggerrietts.people.api.FreePerson;
+import com.github.ggerrietts.people.api.Person;
 
 import java.util.List;
 
 public class PeopleHealthCheck extends HealthCheck {
-    private final List<FreePerson> people;
+    private final List<Person> people;
 
-    public PeopleHealthCheck(List<FreePerson> people){
+    public PeopleHealthCheck(List<Person> people){
         this.people = people;
     }
 
